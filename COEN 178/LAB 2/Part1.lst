@@ -1,0 +1,84 @@
+SQL> start part1.sql
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+INSERT INTO Schedule VALUES('dg5','c32','t')
+*
+ERROR at line 1:
+ORA-02291: integrity constraint (PSELOVER.SYS_C00536297) violated - parent key 
+not found 
+
+
+INSERT INTO Schedule VALUES('dsg2','c1','s')
+*
+ERROR at line 1:
+ORA-02290: check constraint (PSELOVER.SYS_C00536295) violated 
+
+
+SQL> spool off

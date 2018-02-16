@@ -1,0 +1,122 @@
+SQL> start HW2.sql
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+NAME                      PRICE
+-------------------- ----------
+oatmeal                       3
+fruit_plate                   8
+broccoli pie                 10
+chicken pie                  10
+steak                        20
+
+
+NAME                      PRICE   CALORIES
+-------------------- ---------- ----------
+oatmeal                       3        120
+fruit_plate                   8        220
+broccoli pie                 10        200
+chicken pie                  10        350
+steak                        20        420
+
+
+NAME                   CALORIES
+-------------------- ----------
+steak                       420
+
+
+NAME
+--------------------
+oatmeal
+
+
+NAME                      PRICE
+-------------------- ----------
+broccoli pie                 10
+
+
+PHONE
+----------
+4085551212
+
+
+OR SUM(MEALITEM.CALORIES)
+-- ----------------------
+O1                    760
+O2                    350
+O8                    120
+
+
+1 row updated.
+
+
+IT NAME                      PRICE   CALORIES
+-- -------------------- ---------- ----------
+I1 oatmeal                       3        120
+I2 fruit_plate                   8        220
+I3 steak                        20        420
+I4 chicken pie                  10        350
+I5 broccoli pie                  9        200
+
+SQL> spool off

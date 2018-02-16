@@ -1,0 +1,14 @@
+SQL> start data.sql
+INSERT INTO test VALUES (10, ' ten')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (PSELOVER.SYS_C00534661) violated 
+
+
+INSERT INTO test VALUES (11, ' eleven')
+*
+ERROR at line 1:
+ORA-00001: unique constraint (PSELOVER.SYS_C00534661) violated 
+
+
+SQL> spool off

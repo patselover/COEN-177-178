@@ -1,0 +1,93 @@
+SQL> start part2.sql
+
+CUSTI FULLNAME                  CITY                                            
+----- ------------------------- ----------                                      
+c1    JohnSmith                 SJ                                              
+c2    MaryJones                 SFO                                             
+a1    Vincent Chen              SJ                                              
+a12   Greg King                 SJ                                              
+c7    James Bond                LA                                              
+x10   Susan Blogg               SFO                                             
+
+6 rows selected.
+
+
+CUSTI FIRSTNAME  LASTNAME        CITY                                           
+----- ---------- --------------- ----------                                     
+x10   Susan      Blogg           SFO                                            
+c7    James      Bond            LA                                             
+a1    Vincent    Chen            SJ                                             
+c2    Mary       Jones           SFO                                            
+a12   Greg       King            SJ                                             
+c1    John       Smith           SJ                                             
+
+6 rows selected.
+
+
+SERVICEID  CUSTI DA                                                             
+---------- ----- --                                                             
+dsg1       c1    m                                                              
+dsg1       a12   w                                                              
+dg5        c1    t                                                              
+dg5        c1    r                                                              
+dby3       x10   f                                                              
+
+
+SERVICEID                                                                       
+----------                                                                      
+dsb1                                                                            
+dsg2                                                                            
+dsm2                                                                            
+
+
+NAME                                                                            
+-------------------------                                                       
+JohnSmith                                                                       
+
+
+LASTNAME                                                                        
+---------------                                                                 
+Smith                                                                           
+King                                                                            
+Blogg                                                                           
+
+
+HIGHEST_SERVICEFEE                                                              
+------------------                                                              
+                30                                                              
+
+
+COUNT(DAY)                                                                      
+----------                                                                      
+         1                                                                      
+         1                                                                      
+         1                                                                      
+         1                                                                      
+         1                                                                      
+
+
+CUSTI CUSTI CITY                                                                
+----- ----- ----------                                                          
+x10   c2    SFO                                                                 
+a12   a1    SJ                                                                  
+c1    a1    SJ                                                                  
+c1    a12   SJ                                                                  
+
+
+CUSTI FIRSTNAME  LASTNAME        CITY                                           
+----- ---------- --------------- ----------                                     
+a12   Greg       King            SJ                                             
+a1    Vincent    Chen            SJ                                             
+c1    John       Smith           SJ                                             
+c7    James      Bond            LA                                             
+x10   Susan      Blogg           SFO                                            
+c2    Mary       Jones           SFO                                            
+
+6 rows selected.
+
+
+MIN(SALARY) MAX(SALARY)                                                         
+----------- -----------                                                         
+          0      179700                                                         
+
+SQL> spool off

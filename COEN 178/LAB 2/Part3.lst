@@ -1,0 +1,26 @@
+SQL> start lab2_queries2.sql
+
+     EMPNO EMPNAME    DEPTI DEPTI DEPTNAME                                      
+---------- ---------- ----- ----- ----------                                    
+         1 smith      d1    d1    Research                                      
+         2 jones      d2    d2    Devt                                          
+         3 wayne      d1    d1    Research                                      
+         4 moor       d3    d3    Testing                                       
+         5 king       d1    d1    Research                                      
+         6 chen       d1    d1    Research                                      
+         7 winger     d3    d3    Testing                                       
+
+7 rows selected.
+
+
+EMPNAME                                                                         
+----------                                                                      
+moor                                                                            
+winger                                                                          
+
+
+DEPTNAME                                                                        
+----------                                                                      
+Advert                                                                          
+
+SQL> spool off
